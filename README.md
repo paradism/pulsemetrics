@@ -7,7 +7,7 @@ A micro-SaaS analytics dashboard for TikTok and Instagram Reels creators. This M
 - **Best Posting Times** - Heatmap analysis showing when your audience is most active
 - **Trending Sounds** - Discover sounds gaining traction in your niche
 - **Competitor Tracking** - Compare your metrics against competitors
-- **Authentication** - Full auth flow with Supabase (email/password, Google, TikTok)
+- **Authentication** - Full auth flow with Supabase (email/password, Google, TikTok) 
 
 ## Quick Start
 
