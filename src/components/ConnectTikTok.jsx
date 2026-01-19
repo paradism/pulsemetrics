@@ -9,7 +9,7 @@
 import React, { useState } from 'react';
 import { Search, User, Link2, CheckCircle, AlertCircle, Loader2, ExternalLink } from 'lucide-react';
 import { getUserProfile } from '../services/tiktokApi';
-import { isTikTokOAuthConfigured, initiateTikTokAuth } from './tiktokOAuth';
+import { isTikTokOAuthConfigured, initiateTikTokAuth } from '../services/tiktokOAuth';
 
 export default function ConnectTikTok({ onConnect, currentUsername }) {
   const [username, setUsername] = useState('');
