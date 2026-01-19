@@ -6,8 +6,8 @@
  */
 
 import { useState, useEffect, useCallback } from 'react';
-import * as tiktokApi from './tiktokApi';
-import * as analytics from './analytics';
+import * as tiktokApi from '../services/tiktokApi';
+import * as analytics from '../services/analytics';
 
 // Simple in-memory cache
 const cache = new Map();
